@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .invoice-details {
+            margin: 20px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        .invoice-details p {
+            margin: 5px 0;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 0.9em;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <h1>Invoice</h1>
+    <div class="invoice-details">
+        <p><strong>Name:</strong> {{name}}</p>
+        <p><strong>Email:</strong> {{email}}</p>
+        <p><strong>Order ID:</strong> {{order_id}}</p>
+        <p><strong>Payment ID:</strong> {{payment_id}}</p>
+        <p><strong>Subscription Valid Until:</strong> {{subscription_valid_till}}</p>
+    </div>
+    <div class="footer">
+        <p>From MutaEngine@Assignment</p>
+        <p>Thank you for your business!</p>
+    </div>
+</body>
+</html>
