@@ -240,7 +240,7 @@ exports.generateResetPasswordToken = async(req,res) => {
       });
 
       //#TODO change this to the frontendlink
-      const url = `http://localhost:4000/update-password/${token}`;
+      const url = `https://muta-engine-assignment-fe.vercel.app/update-password/${token}`;
 
       await mailSender(
           email , 
